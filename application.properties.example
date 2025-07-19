@@ -1,0 +1,17 @@
+# Database Configuration
+spring.datasource.url=jdbc:postgresql://localhost:5432/job
+spring.datasource.username=your_db_username
+spring.datasource.password=your_db_password
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# JPA Configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=false
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+# Application Name
+spring.application.name=job-management-api
+
+# Optional: Enable debug logging (for development only)
+# logging.level.org.springframework.security=DEBUG
+# logging.level.com.arijit.job_management_api=DEBUG
